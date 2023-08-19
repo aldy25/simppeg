@@ -1,0 +1,64 @@
+ERROR - 2023-05-21 22:42:31 --> Column 'user' cannot be null
+CRITICAL - 2023-05-21 22:42:31 --> Column 'user' cannot be null
+#0 C:\xampp\htdocs\simppeg\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simppeg\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simppeg\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simppeg\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simppeg\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simppeg\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simppeg\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simppeg\app\Controllers\Back\Pelamar.php(317): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Pelamar->simpanprofile()
+#9 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pelamar))
+#10 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2023-05-21 22:49:25 --> Column 'user' cannot be null
+CRITICAL - 2023-05-21 22:49:25 --> Column 'user' cannot be null
+#0 C:\xampp\htdocs\simppeg\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simppeg\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simppeg\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simppeg\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simppeg\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simppeg\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simppeg\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simppeg\app\Controllers\Back\Pelamar.php(329): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Pelamar->simpanprofile()
+#9 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pelamar))
+#10 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-05-21 22:52:41 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\simppeg\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Pelamar/Pr...', Array, true)
+#3 C:\xampp\htdocs\simppeg\app\Controllers\Back\Pelamar.php(137): view('Page/Pelamar/Pr...', Array)
+#4 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Pelamar->Profile()
+#5 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Pelamar))
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-05-21 23:23:21 --> Class "App\Models\Modeldatalowonganbuka" not found
+#0 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Lowbuka->listdata()
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Lowbuka))
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-21 23:25:00 --> Class "App\Models\Modeldatalowonganbuka" not found
+#0 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Lowbuka->listdata()
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Lowbuka))
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-21 23:25:29 --> Class "App\Models\Modeldatalowonganbuka" not found
+#0 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Lowbuka->listdata()
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Lowbuka))
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

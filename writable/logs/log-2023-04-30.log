@@ -1,0 +1,84 @@
+CRITICAL - 2023-04-30 22:54:37 --> Class "App\Models\Modelantigen" not found
+#0 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(810): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-04-30 23:17:22 --> Undefined property: stdClass::$status
+#0 C:\xampp\htdocs\simppeg\app\Controllers\Back\Auth.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Auth->cekuser()
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Auth))
+#3 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-04-30 23:19:43 --> Table 'simppeg.tbl_pasien' doesn't exist
+ERROR - 2023-04-30 23:19:43 --> Table 'simppeg.tbl_obat' doesn't exist
+ERROR - 2023-04-30 23:19:43 --> Table 'simppeg.tbl_riwayat_transaksi' doesn't exist
+ERROR - 2023-04-30 23:19:43 --> Table 'simppeg.tbl_obat' doesn't exist
+CRITICAL - 2023-04-30 23:19:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\simppeg\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#3 C:\xampp\htdocs\simppeg\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#4 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#5 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-04-30 23:23:52 --> Undefined property: stdClass::$role1
+#0 C:\xampp\htdocs\simppeg\app\Views\Base\Menu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\View\View.php(226): CodeIgniter\View\View->render('Base/Menu', Array, true)
+#4 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#5 C:\xampp\htdocs\simppeg\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#8 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-30 23:25:47 --> Undefined property: stdClass::$role1
+#0 C:\xampp\htdocs\simppeg\app\Views\Base\Menu.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\View\View.php(226): CodeIgniter\View\View->render('Base/Menu', Array, true)
+#4 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#5 C:\xampp\htdocs\simppeg\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#8 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-04-30 23:29:29 --> Undefined property: stdClass::$nama_user
+#0 C:\xampp\htdocs\simppeg\app\Views\Base\Main.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\View\View.php(226): CodeIgniter\View\View->render('Base/Main', Array, true)
+#4 C:\xampp\htdocs\simppeg\system\View\View.php(226): CodeIgniter\View\View->render('Base/Menu', Array, true)
+#5 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#6 C:\xampp\htdocs\simppeg\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#8 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#9 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-04-30 23:30:04 --> Undefined variable $page
+#0 C:\xampp\htdocs\simppeg\app\Views\Base\Main.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\View\View.php(226): CodeIgniter\View\View->render('Base/Main', Array, true)
+#4 C:\xampp\htdocs\simppeg\system\View\View.php(226): CodeIgniter\View\View->render('Base/Menu', Array, true)
+#5 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Beranda', Array, true)
+#6 C:\xampp\htdocs\simppeg\app\Controllers\Homepage.php(21): view('Page/Beranda', Array)
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\Homepage->index()
+#8 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homepage))
+#9 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}

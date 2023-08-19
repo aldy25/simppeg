@@ -1,0 +1,70 @@
+CRITICAL - 2023-05-07 22:49:05 --> Validasilogin filter must have a matching alias defined.
+#0 C:\xampp\htdocs\simppeg\system\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Validasilogin')
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter('Validasilogin', 'before')
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-07 23:00:28 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Akun->simpandata()
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-05-07 23:01:19 --> Undefined array key "level"
+#0 C:\xampp\htdocs\simppeg\app\Controllers\Back\Akun.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Akun->formedit()
+#2 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#3 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-05-07 23:08:46 --> Undefined variable $level
+#0 C:\xampp\htdocs\simppeg\app\Views\Page\Akun\modaledit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Akun/modal...', Array, true)
+#4 C:\xampp\htdocs\simppeg\app\Controllers\Back\Akun.php(203): view('Page/Akun/modal...', Array)
+#5 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Akun->formedit()
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-07 23:09:06 --> Undefined variable $level
+#0 C:\xampp\htdocs\simppeg\app\Views\Page\Akun\modaledit.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Akun/modal...', Array, true)
+#4 C:\xampp\htdocs\simppeg\app\Controllers\Back\Akun.php(203): view('Page/Akun/modal...', Array)
+#5 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Akun->formedit()
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-07 23:13:08 --> Undefined variable $level
+#0 C:\xampp\htdocs\simppeg\app\Views\Page\Akun\modaledit.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Akun/modal...', Array, true)
+#4 C:\xampp\htdocs\simppeg\app\Controllers\Back\Akun.php(204): view('Page/Akun/modal...', Array)
+#5 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Akun->formedit()
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-05-07 23:14:46 --> Undefined variable $level
+#0 C:\xampp\htdocs\simppeg\app\Views\Page\Akun\modaledit.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\simppeg\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simppeg\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simppeg\system\Common.php(1089): CodeIgniter\View\View->render('Page/Akun/modal...', Array, true)
+#4 C:\xampp\htdocs\simppeg\app\Controllers\Back\Akun.php(204): view('Page/Akun/modal...', Array)
+#5 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(832): App\Controllers\back\Akun->formedit()
+#6 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\back\Akun))
+#7 C:\xampp\htdocs\simppeg\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\simppeg\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\simppeg\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
